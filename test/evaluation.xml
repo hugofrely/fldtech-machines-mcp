@@ -1,0 +1,43 @@
+<evaluation>
+  <!-- Use test/mock-api.mjs as the upstream. Answers describe fictional data. -->
+  <qa_pair>
+    <question>Find the machine east of Greenwich and return its detailed time zone.</question>
+    <answer>Europe/Paris</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the machine west of Greenwich and return its city.</question>
+    <answer>London</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the out-of-order machine and return its name.</question>
+    <answer>West Market</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the currency code of the machine whose time zone is Europe/London.</question>
+    <answer>gbp</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Which machine lists a hot Margherita for GBP 9.50 in its French catalog? Return the machine name.</question>
+    <answer>West Market</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Which pizza in the North Station French catalog has promotional stock on January 1, 2099 at 19:00 local time? Return its name.</question>
+    <answer>Garden Pizza</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many regular units of Margherita does North Station show on January 1, 2099 at 19:00 local time? Use the French catalog to match the product ID.</question>
+    <answer>7</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the stocked pizza containing milk in North Station's French catalog at 19:00 local time on January 1, 2099. Return its name.</question>
+    <answer>Margherita</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many regular units of Sparkling Water does North Station have at 19:00 local time on January 1, 2099? Use the French catalog to match the product ID.</question>
+    <answer>8</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Which machine reports no stock entries at 19:00 in its local time zone on January 1, 2099? Return its name.</question>
+    <answer>West Market</answer>
+  </qa_pair>
+</evaluation>
